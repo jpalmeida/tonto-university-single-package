@@ -1,0 +1,14 @@
+{
+    "projectName": "ontobras-university",
+    "displayName": "Ontobras University",
+    "authors": ["Matheus Lenke Coutinho", "João Paulo Andrade Almeida"],
+    "outFolder": "dist",
+    "dependencies": {
+        "university": {
+            "url": "https://github.com/jpalmeida/tonto-university-single-package"
+        }
+    },
+    "license": "MIT",
+    "publisher": "Ontobras",
+    "version": "1.0.0"
+}
