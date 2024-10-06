@@ -34,9 +34,6 @@
     rdfs:label "Teenager"@en.
 :Adult rdf:type owl:Class, gufo:Phase, owl:NamedIndividual;
     rdfs:label "Adult"@en.
-:PersonTypeByAge rdf:type owl:NamedIndividual;
-    rdfs:subClassOf gufo:ConcreteIndividualType;
-    rdfs:label "PersonTypeByAge"@en.
 :Organization rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
     rdfs:subClassOf gufo:FunctionalComplex;
     rdfs:label "Organization"@en.
