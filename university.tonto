@@ -20,11 +20,8 @@ phase Child specializes Person
 phase Teenager specializes Person
 phase Adult specializes Person
 
-type PersonTypeByAge
-
 disjoint complete genset PhasesOfPerson {
  general Person
- categorizer PersonTypeByAge
  specifics Child, Teenager, Adult
 }
 
