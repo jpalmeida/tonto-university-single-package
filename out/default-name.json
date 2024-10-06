@@ -17,7 +17,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm84",
+            "id": "1b52tn12bom1xw7a2m",
             "name": "number",
             "description": null
           },
@@ -35,7 +35,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm85",
+            "id": "1b52tn12bom1xw7a2n",
             "name": "string",
             "description": null
           },
@@ -53,7 +53,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm86",
+            "id": "1b52tn12bom1xw7a2o",
             "name": "boolean",
             "description": null
           },
@@ -71,7 +71,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm87",
+            "id": "1b52tn12bom1xw7a2p",
             "name": "date",
             "description": null
           },
@@ -89,7 +89,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm88",
+            "id": "1b52tn12bom1xw7a2q",
             "name": "time",
             "description": null
           },
@@ -107,7 +107,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm89",
+            "id": "1b52tn12bom1xw7a2r",
             "name": "datetime",
             "description": null
           },
@@ -125,37 +125,19 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8a",
+            "id": "1b52tn12bom1xw7a2s",
             "name": "undefined",
             "description": null
           }
         ],
         "propertyAssignments": {},
         "type": "Package",
-        "id": "1b52tn8o9m1xndm83",
+        "id": "1b52tn12bom1xw7a2l",
         "name": "Tonto.BasicDataTypes",
         "description": null
       },
       {
         "contents": [
-          {
-            "stereotype": "datatype",
-            "restrictedTo": [
-              "abstract"
-            ],
-            "properties": null,
-            "literals": null,
-            "isAbstract": false,
-            "isDerived": false,
-            "isExtensional": false,
-            "isPowertype": false,
-            "order": "1",
-            "propertyAssignments": {},
-            "type": "Class",
-            "id": "1b52tn8o9m1xndm8c",
-            "name": "int",
-            "description": null
-          },
           {
             "stereotype": "datatype",
             "restrictedTo": [
@@ -167,7 +149,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm85"
+                  "id": "1b52tn12bom1xw7a2n"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -177,7 +159,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm98",
+                "id": "1b52tn12bom1xw7a3t",
                 "name": "country",
                 "description": null
               },
@@ -186,7 +168,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm85"
+                  "id": "1b52tn12bom1xw7a2n"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -196,7 +178,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm99",
+                "id": "1b52tn12bom1xw7a3u",
                 "name": "city",
                 "description": null
               },
@@ -205,7 +187,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm85"
+                  "id": "1b52tn12bom1xw7a2n"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -215,7 +197,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm9a",
+                "id": "1b52tn12bom1xw7a3v",
                 "name": "postalCode",
                 "description": null
               },
@@ -224,7 +206,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm85"
+                  "id": "1b52tn12bom1xw7a2n"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -234,7 +216,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm9b",
+                "id": "1b52tn12bom1xw7a3w",
                 "name": "street",
                 "description": null
               },
@@ -243,7 +225,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8c"
+                  "id": "1b52tn12bom1xw7a2m"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -253,7 +235,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm9c",
+                "id": "1b52tn12bom1xw7a3x",
                 "name": "streetNumber",
                 "description": null
               }
@@ -266,7 +248,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8d",
+            "id": "1b52tn12bom1xw7a2u",
             "name": "Address",
             "description": null
           },
@@ -280,28 +262,28 @@
               {
                 "propertyAssignments": {},
                 "type": "Literal",
-                "id": "1b52tn8o9m1xndm8f",
+                "id": "1b52tn12bom1xw7a2w",
                 "name": "Blue",
                 "description": null
               },
               {
                 "propertyAssignments": {},
                 "type": "Literal",
-                "id": "1b52tn8o9m1xndm8g",
+                "id": "1b52tn12bom1xw7a2x",
                 "name": "Green",
                 "description": null
               },
               {
                 "propertyAssignments": {},
                 "type": "Literal",
-                "id": "1b52tn8o9m1xndm8h",
+                "id": "1b52tn12bom1xw7a2y",
                 "name": "Brown",
                 "description": null
               },
               {
                 "propertyAssignments": {},
                 "type": "Literal",
-                "id": "1b52tn8o9m1xndm8i",
+                "id": "1b52tn12bom1xw7a2z",
                 "name": "Black",
                 "description": null
               }
@@ -313,7 +295,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8e",
+            "id": "1b52tn12bom1xw7a2v",
             "name": "EyeColor",
             "description": null
           },
@@ -328,7 +310,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm87"
+                  "id": "1b52tn12bom1xw7a2p"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -338,7 +320,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm9l",
+                "id": "1b52tn12bom1xw7a46",
                 "name": "birthDate",
                 "description": null
               },
@@ -347,7 +329,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm85"
+                  "id": "1b52tn12bom1xw7a2n"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -357,7 +339,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm9m",
+                "id": "1b52tn12bom1xw7a47",
                 "name": "name",
                 "description": null
               },
@@ -366,7 +348,7 @@
                 "cardinality": "1..*",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm85"
+                  "id": "1b52tn12bom1xw7a2n"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -376,7 +358,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm9n",
+                "id": "1b52tn12bom1xw7a48",
                 "name": "alternateNames",
                 "description": null
               },
@@ -385,7 +367,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8c"
+                  "id": "1b52tn12bom1xw7a2m"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -395,8 +377,27 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm9o",
+                "id": "1b52tn12bom1xw7a49",
                 "name": "age",
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "1b52tn12bom1xw7a2v"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "1b52tn12bom1xw7a4a",
+                "name": "eyeColor",
                 "description": null
               }
             ],
@@ -408,7 +409,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8j",
+            "id": "1b52tn12bom1xw7a30",
             "name": "Person",
             "description": null
           },
@@ -426,7 +427,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8k",
+            "id": "1b52tn12bom1xw7a31",
             "name": "Child",
             "description": null
           },
@@ -444,7 +445,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8l",
+            "id": "1b52tn12bom1xw7a32",
             "name": "Teenager",
             "description": null
           },
@@ -462,7 +463,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8m",
+            "id": "1b52tn12bom1xw7a33",
             "name": "Adult",
             "description": null
           },
@@ -480,7 +481,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8n",
+            "id": "1b52tn12bom1xw7a34",
             "name": "PersonTypeByAge",
             "description": null
           },
@@ -495,7 +496,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8d"
+                  "id": "1b52tn12bom1xw7a2u"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -505,7 +506,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm9p",
+                "id": "1b52tn12bom1xw7a4b",
                 "name": "address",
                 "description": null
               }
@@ -518,7 +519,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8o",
+            "id": "1b52tn12bom1xw7a35",
             "name": "Organization",
             "description": null
           },
@@ -536,7 +537,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8p",
+            "id": "1b52tn12bom1xw7a36",
             "name": "Employer",
             "description": null
           },
@@ -554,7 +555,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8q",
+            "id": "1b52tn12bom1xw7a37",
             "name": "Employee",
             "description": null
           },
@@ -572,7 +573,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8r",
+            "id": "1b52tn12bom1xw7a38",
             "name": "EmploymentContract",
             "description": null
           },
@@ -590,7 +591,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8s",
+            "id": "1b52tn12bom1xw7a39",
             "name": "University",
             "description": null
           },
@@ -608,7 +609,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8t",
+            "id": "1b52tn12bom1xw7a3a",
             "name": "PhDStudent",
             "description": null
           },
@@ -626,7 +627,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8u",
+            "id": "1b52tn12bom1xw7a3b",
             "name": "UniversityProfessor",
             "description": null
           },
@@ -644,7 +645,7 @@
             "order": "1",
             "propertyAssignments": {},
             "type": "Class",
-            "id": "1b52tn8o9m1xndm8v",
+            "id": "1b52tn12bom1xw7a3c",
             "name": "PhDEnrollment",
             "description": null
           },
@@ -656,7 +657,7 @@
                 "cardinality": "1..*",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8r"
+                  "id": "1b52tn12bom1xw7a38"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -666,7 +667,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm8x",
+                "id": "1b52tn12bom1xw7a3e",
                 "name": null,
                 "description": null
               },
@@ -675,7 +676,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8p"
+                  "id": "1b52tn12bom1xw7a36"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -685,7 +686,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm8y",
+                "id": "1b52tn12bom1xw7a3f",
                 "name": null,
                 "description": null
               }
@@ -694,7 +695,7 @@
             "isDerived": false,
             "propertyAssignments": {},
             "type": "Relation",
-            "id": "1b52tn8o9m1xndm8w",
+            "id": "1b52tn12bom1xw7a3d",
             "name": null,
             "description": null
           },
@@ -706,7 +707,7 @@
                 "cardinality": "1..*",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8r"
+                  "id": "1b52tn12bom1xw7a38"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -716,7 +717,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm90",
+                "id": "1b52tn12bom1xw7a3h",
                 "name": null,
                 "description": null
               },
@@ -725,7 +726,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8q"
+                  "id": "1b52tn12bom1xw7a37"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -735,7 +736,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm91",
+                "id": "1b52tn12bom1xw7a3i",
                 "name": null,
                 "description": null
               }
@@ -744,19 +745,19 @@
             "isDerived": false,
             "propertyAssignments": {},
             "type": "Relation",
-            "id": "1b52tn8o9m1xndm8z",
+            "id": "1b52tn12bom1xw7a3g",
             "name": null,
             "description": null
           },
           {
-            "stereotype": null,
+            "stereotype": "mediation",
             "properties": [
               {
                 "stereotype": null,
                 "cardinality": "1..*",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8v"
+                  "id": "1b52tn12bom1xw7a3c"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -766,7 +767,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm93",
+                "id": "1b52tn12bom1xw7a3k",
                 "name": null,
                 "description": null
               },
@@ -775,7 +776,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8t"
+                  "id": "1b52tn12bom1xw7a3a"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -785,7 +786,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm94",
+                "id": "1b52tn12bom1xw7a3l",
                 "name": null,
                 "description": null
               }
@@ -794,19 +795,19 @@
             "isDerived": false,
             "propertyAssignments": {},
             "type": "Relation",
-            "id": "1b52tn8o9m1xndm92",
+            "id": "1b52tn12bom1xw7a3j",
             "name": null,
             "description": null
           },
           {
-            "stereotype": null,
+            "stereotype": "mediation",
             "properties": [
               {
                 "stereotype": null,
                 "cardinality": "0..*",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8v"
+                  "id": "1b52tn12bom1xw7a3c"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -816,7 +817,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm96",
+                "id": "1b52tn12bom1xw7a3n",
                 "name": null,
                 "description": null
               },
@@ -825,7 +826,7 @@
                 "cardinality": "1..1",
                 "propertyType": {
                   "type": "Class",
-                  "id": "1b52tn8o9m1xndm8s"
+                  "id": "1b52tn12bom1xw7a39"
                 },
                 "subsettedProperties": null,
                 "redefinedProperties": null,
@@ -835,7 +836,7 @@
                 "isReadOnly": false,
                 "propertyAssignments": {},
                 "type": "Property",
-                "id": "1b52tn8o9m1xndm97",
+                "id": "1b52tn12bom1xw7a3o",
                 "name": null,
                 "description": null
               }
@@ -844,162 +845,216 @@
             "isDerived": false,
             "propertyAssignments": {},
             "type": "Relation",
-            "id": "1b52tn8o9m1xndm95",
+            "id": "1b52tn12bom1xw7a3m",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8j"
+              "id": "1b52tn12bom1xw7a30"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8k"
+              "id": "1b52tn12bom1xw7a31"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9d",
+            "id": "1b52tn12bom1xw7a3p",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8j"
+              "id": "1b52tn12bom1xw7a30"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8l"
+              "id": "1b52tn12bom1xw7a32"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9e",
+            "id": "1b52tn12bom1xw7a3q",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8j"
+              "id": "1b52tn12bom1xw7a30"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8m"
+              "id": "1b52tn12bom1xw7a33"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9f",
+            "id": "1b52tn12bom1xw7a3r",
+            "name": null,
+            "description": null
+          },
+          {
+            "isDisjoint": true,
+            "isComplete": true,
+            "categorizer": null,
+            "generalizations": [
+              {
+                "type": "Generalization",
+                "id": "1b52tn12bom1xw7a3p"
+              },
+              {
+                "type": "Generalization",
+                "id": "1b52tn12bom1xw7a3q"
+              },
+              {
+                "type": "Generalization",
+                "id": "1b52tn12bom1xw7a3r"
+              }
+            ],
+            "propertyAssignments": {},
+            "type": "GeneralizationSet",
+            "id": "1b52tn12bom1xw7a3s",
+            "name": "PhasesOfPerson",
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "1b52tn12bom1xw7a30"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "1b52tn12bom1xw7a31"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "1b52tn12bom1xw7a3y",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8o"
+              "id": "1b52tn12bom1xw7a30"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8p"
+              "id": "1b52tn12bom1xw7a32"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9g",
+            "id": "1b52tn12bom1xw7a3z",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8j"
+              "id": "1b52tn12bom1xw7a30"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8q"
+              "id": "1b52tn12bom1xw7a33"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9h",
+            "id": "1b52tn12bom1xw7a40",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8o"
+              "id": "1b52tn12bom1xw7a35"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8s"
+              "id": "1b52tn12bom1xw7a36"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9i",
+            "id": "1b52tn12bom1xw7a41",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8j"
+              "id": "1b52tn12bom1xw7a30"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8t"
+              "id": "1b52tn12bom1xw7a37"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9j",
+            "id": "1b52tn12bom1xw7a42",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8q"
+              "id": "1b52tn12bom1xw7a35"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8u"
+              "id": "1b52tn12bom1xw7a39"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9k",
+            "id": "1b52tn12bom1xw7a43",
             "name": null,
             "description": null
           },
           {
             "general": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm8c"
+              "id": "1b52tn12bom1xw7a30"
             },
             "specific": {
               "type": "Class",
-              "id": "1b52tn8o9m1xndm84"
+              "id": "1b52tn12bom1xw7a3a"
             },
             "propertyAssignments": {},
             "type": "Generalization",
-            "id": "1b52tn8o9m1xndm9q",
+            "id": "1b52tn12bom1xw7a44",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "1b52tn12bom1xw7a37"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "1b52tn12bom1xw7a3b"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "1b52tn12bom1xw7a45",
             "name": null,
             "description": null
           }
         ],
         "propertyAssignments": {},
         "type": "Package",
-        "id": "1b52tn8o9m1xndm8b",
+        "id": "1b52tn12bom1xw7a2t",
         "name": "University",
         "description": null
       }
     ],
     "propertyAssignments": {},
     "type": "Package",
-    "id": "1b52tn8o9m1xndm82",
+    "id": "1b52tn12bom1xw7a2k",
     "name": "default-name",
     "description": null
   },
   "diagrams": null,
   "type": "Project",
-  "id": "1b52tn8o9m1xndm81",
+  "id": "1b52tn12bom1xw7a2j",
   "name": "default-name",
   "description": null
 }

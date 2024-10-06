@@ -116,6 +116,11 @@
     rdf:type owl:DatatypeProperty;
     rdfs:subPropertyOf gufo:hasQualityValue;
     rdfs:label "age"@en.
+:eyeColor rdfs:domain :Person;
+    rdfs:range :EyeColor;
+    rdf:type owl:ObjectProperty;
+    rdfs:subPropertyOf gufo:hasReifiedQualityValue;
+    rdfs:label "eyeColor"@en.
 :address rdfs:domain :Organization;
     rdfs:range :Address;
     rdf:type owl:ObjectProperty;

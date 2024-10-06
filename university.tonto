@@ -14,8 +14,9 @@ kind Person {
     name: string
     alternateNames: string [1..*] { ordered }
     age: number { derived }
+    eyeColor : EyeColor
 }
-phase Child specializes Person
+phase Child specializes Person 
 phase Teenager specializes Person
 phase Adult specializes Person
 
