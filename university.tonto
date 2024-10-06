@@ -1,0 +1,56 @@
+package University
+
+datatype Address {
+    country: string
+    city: string
+    postalCode: string
+    street: string
+    streetNumber: number
+}
+enum EyeColor { Blue, Green, Brown, Black }
+
+kind Person {
+    birthDate : date
+    name: string
+    alternateNames: string [1..*] { ordered }
+    age: number { derived }
+}
+phase Child specializes Person
+phase Teenager specializes Person
+phase Adult specializes Person
+
+type PersonTypeByAge
+
+disjoint complete genset PhasesOfPerson {
+ general Person
+ categorizer PersonTypeByAge
+ specifics Child, Teenager, Adult
+}
+
+category Organization
+{
+    address : Address
+}
+
+roleMixin Employer specializes Organization
+role Employee specializes Person
+relator EmploymentContract
+{
+    @mediation
+    [1..*] -- [1] Employer
+    @mediation
+    [1..*] -- [1] Employee
+}
+
+kind University specializes Organization
+
+role PhDStudent specializes Person
+role UniversityProfessor specializes Employee
+relator PhDEnrollment
+{
+    @mediation
+    [1..*] -- [1] PhDStudent
+    @mediation
+    [*] -- [1] University
+}
+

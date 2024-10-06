@@ -1,0 +1,139 @@
+@prefix : <https://example.com#>.
+@prefix gufo: <http://purl.org/nemo/gufo#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://example.com> rdf:type owl:Ontology;
+    owl:imports gufo:.
+:Address rdf:type owl:Class, gufo:AbstractIndividualType, owl:NamedIndividual;
+    rdfs:subClassOf gufo:QualityValue;
+    rdfs:label "Address"@en.
+:EyeColor rdf:type owl:Class, gufo:AbstractIndividualType, owl:NamedIndividual;
+    rdfs:subClassOf gufo:QualityValue;
+    owl:equivalentClass [
+  rdf:type owl:Class;
+  owl:oneOf (:Blue :Green :Brown :Black)
+].
+:Blue rdf:type :EyeColor;
+    rdf:label "[object Object]".
+:Green rdf:type :EyeColor;
+    rdf:label "[object Object]".
+:Brown rdf:type :EyeColor;
+    rdf:label "[object Object]".
+:Black rdf:type :EyeColor;
+    rdf:label "[object Object]".
+:EyeColor rdfs:label "EyeColor"@en.
+:Person rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:subClassOf gufo:FunctionalComplex;
+    rdfs:label "Person"@en.
+:Child rdf:type owl:Class, gufo:Phase, owl:NamedIndividual;
+    rdfs:label "Child"@en.
+:Teenager rdf:type owl:Class, gufo:Phase, owl:NamedIndividual;
+    rdfs:label "Teenager"@en.
+:Adult rdf:type owl:Class, gufo:Phase, owl:NamedIndividual;
+    rdfs:label "Adult"@en.
+:PersonTypeByAge rdf:type owl:NamedIndividual;
+    rdfs:subClassOf gufo:ConcreteIndividualType;
+    rdfs:label "PersonTypeByAge"@en.
+:Organization rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
+    rdfs:subClassOf gufo:FunctionalComplex;
+    rdfs:label "Organization"@en.
+:Employer rdf:type owl:Class, gufo:RoleMixin, owl:NamedIndividual;
+    rdfs:label "Employer"@en.
+:Employee rdf:type owl:Class, gufo:Role, owl:NamedIndividual;
+    rdfs:label "Employee"@en.
+:EmploymentContract rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:subClassOf gufo:Relator;
+    rdfs:label "EmploymentContract"@en.
+:University rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "University"@en.
+:PhDStudent rdf:type owl:Class, gufo:Role, owl:NamedIndividual;
+    rdfs:label "PhDStudent"@en.
+:UniversityProfessor rdf:type owl:Class, gufo:Role, owl:NamedIndividual;
+    rdfs:label "UniversityProfessor"@en.
+:PhDEnrollment rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:subClassOf gufo:Relator;
+    rdfs:label "PhDEnrollment"@en.
+:Child rdfs:subClassOf :Person.
+:Teenager rdfs:subClassOf :Person.
+:Adult rdfs:subClassOf :Person.
+:Child rdfs:subClassOf :Person.
+:Teenager rdfs:subClassOf :Person.
+:Adult rdfs:subClassOf :Person.
+:Employer rdfs:subClassOf :Organization.
+:Employee rdfs:subClassOf :Person.
+:University rdfs:subClassOf :Organization.
+:PhDStudent rdfs:subClassOf :Person.
+:UniversityProfessor rdfs:subClassOf :Employee.
+:Person owl:equivalentClass [
+  rdf:type owl:Class;
+  owl:unionOf (:Child :Teenager :Adult)
+].
+:country rdfs:domain :Address;
+    rdfs:range xsd:string;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasValueComponent;
+    rdfs:label "country"@en.
+:city rdfs:domain :Address;
+    rdfs:range xsd:string;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasValueComponent;
+    rdfs:label "city"@en.
+:postalCode rdfs:domain :Address;
+    rdfs:range xsd:string;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasValueComponent;
+    rdfs:label "postalCode"@en.
+:street rdfs:domain :Address;
+    rdfs:range xsd:string;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasValueComponent;
+    rdfs:label "street"@en.
+:streetNumber rdfs:domain :Address;
+    rdfs:range :number;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasValueComponent;
+    rdfs:label "streetNumber"@en.
+:birthDate rdfs:domain :Person;
+    rdfs:range xsd:date;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasQualityValue;
+    rdfs:label "birthDate"@en.
+:name rdfs:domain :Person;
+    rdfs:range xsd:string;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasQualityValue;
+    rdfs:label "name"@en.
+:alternateNames rdfs:domain :Person;
+    rdfs:range xsd:string;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasQualityValue;
+    rdfs:label "alternateNames"@en.
+:age rdfs:domain :Person;
+    rdfs:range :number;
+    rdf:type owl:DatatypeProperty;
+    rdfs:subPropertyOf gufo:hasQualityValue;
+    rdfs:label "age"@en.
+:address rdfs:domain :Organization;
+    rdfs:range :Address;
+    rdf:type owl:ObjectProperty;
+    rdfs:subPropertyOf gufo:hasReifiedQualityValue;
+    rdfs:label "address"@en.
+:employmentContractMediatesEmployer rdf:type owl:ObjectProperty;
+    rdfs:domain :EmploymentContract;
+    rdfs:range :Employer;
+    rdfs:subPropertyOf gufo:mediates.
+:employmentContractMediatesEmployee rdf:type owl:ObjectProperty;
+    rdfs:domain :EmploymentContract;
+    rdfs:range :Employee;
+    rdfs:subPropertyOf gufo:mediates.
+:phDEnrollmentMediatesPhDStudent rdf:type owl:ObjectProperty;
+    rdfs:domain :PhDEnrollment;
+    rdfs:range :PhDStudent;
+    rdfs:subPropertyOf gufo:mediates.
+:phDEnrollmentMediatesUniversity rdf:type owl:ObjectProperty;
+    rdfs:domain :PhDEnrollment;
+    rdfs:range :University;
+    rdfs:subPropertyOf gufo:mediates.
